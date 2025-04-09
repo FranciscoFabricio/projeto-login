@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) */
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    body {
+        background-image: linear-gradient(to top, #00009c, #00bfff, #3299cc, #87ceeb);
+    }
+
+    /*
+#3299cc azul celeste
+#00009c azul escuro
+#00bfff azul profundo
+#87ceeb azul ceu
+*/
+
+    section#login {
+        width: 90vw;
+    }
+
+    section#login > div#imagem {
+        float: right;
+        width: 40%;
+        height: 100%;
+    
+    }
+    
+    section#login > div#formulario {
+        float: left;
+        width: 60%;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    body {
+        background-image: linear-gradient(to left, #00009c, #00bfff, #3299cc);
+    }
+
+    section#login {
+        width: 990px;
+    }
+
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    
+    }
+    
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+    
+}
